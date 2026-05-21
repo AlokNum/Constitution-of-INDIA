@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samvidhan (संविधान) - Interactive Constitution of India App</title>
+  <meta name="description" content="An elegant, bilingual (Hindi & English), offline-first mobile application to study the Constitution of India. Ideal for UPSC, PSC aspirants, legal scholars, and citizens.">
+  <meta name="keywords" content="Constitution of India, Samvidhan, Indian Constitution App, UPSC prep, Preamble, Amendments, Landmark Cases, Bilingual Constitution">
+  <link rel="icon" type="image/png" href="assets/app_logo.png">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FontAwesome Icons for modern aesthetic -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo">
+        <img src="assets/app_logo.png" alt="Samvidhan Logo">
+        <span>संविधान <span class="highlight">Samvidhan</span></span>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#showcase" class="nav-link">Showcase</a></li>
+          <li><a href="#stats" class="nav-link">Overview</a></li>
+          <li><a href="#download" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Download</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="dot"></span> Offline-First & Bilingual (Hindi/English)
+          </div>
+          <h1>
+            The Constitution of India 
+            <span>Reimagined</span>
+          </h1>
+          <p>
+            An elegant, interactive, and offline-first mobile application designed for civil services aspirants (UPSC, State PSCs), legal scholars, and active citizens. Explore Articles, Amendments, Schedules, and Landmark Cases with rich study aids and premium bilingual support.
+          </p>
+          
+          <div class="store-buttons">
+            <!-- Google Play Button -->
+            <a href="#" class="store-btn">
+              <svg viewBox="0 0 512 512" fill="currentColor">
+                <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58 33.3-60.7-60.7 60.1-60.1 58.6 33.6c24.8 14.2 24.8 37.4 0 53.9zm-82.6 55.1L108.8 442.1l216.5-161.4 60.1 55.1z" />
+              </svg>
+              <div class="btn-text">
+                <span class="small-text">Get it on</span>
+                <span class="large-text">Google Play</span>
+              </div>
+            </a>
+            
+            <!-- App Store Button -->
+            <a href="#" class="store-btn">
+              <svg viewBox="0 0 512 512" fill="currentColor">
+                <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-48.6-22.4-76.1-22.4-36.2 0-77.5 21.5-102.5 53.7-32.8 41.6-28.3 102.3-2.8 159 13.5 30.6 34.6 61.2 64.9 61.2 27.5 0 35-17.6 68.3-17.6 33.2 0 40.5 17.6 68.3 17.6 30.6 0 50.1-27.5 64.9-57.5 18-25.9 24.3-51.5 24.5-52.8-1.1-.5-39-14.9-39.2-60.9zM290.3 83.4c20.3-25 34.3-59.5 29.8-94.5-29.2 1.4-66.6 19.6-86.8 44.6-17.7 21.6-33.1 56.2-28.5 90.7 32.5 2.8 67-17.6 85.5-40.8z" />
+              </svg>
+              <div class="btn-text">
+                <span class="small-text">Download on the</span>
+                <span class="large-text">App Store</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-circle-bg"></div>
+          <div class="hero-phone-mockup">
+            <!-- Utilizing screenshot_dashboard as the hero image -->
+            <img src="assets/screenshot_dashboard.jpg" alt="Samvidhan App Dashboard Mockup">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Tailored for Civil Services & Legal Study</h2>
+        <p>Explore robust, immersive features designed to make constitutional study visual, interactive, and seamless.</p>
+      </div>
+      
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-language"></i>
+          </div>
+          <h3>Bilingual & Side-by-Side</h3>
+          <p>Read the Constitution of India in English and Hindi. Instantly switch languages or view them side-by-side with fluid interface transitions.</p>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-timeline"></i>
+          </div>
+          <h3>106+ Amendments Timeline</h3>
+          <p>Trace constitutional evolution via an interactive timeline. Review side-by-side "Before vs. After" comparative breakdowns of changes.</p>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <h3>Preamble & Interactive Glossary</h3>
+          <p>Dive deep into the Preamble. Tap on key concepts like <em>Sovereign</em> or <em>Secular</em> to view exam-targeted historical and legal definitions.</p>
+        </div>
+        
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <h3>Fast Offline Global Search</h3>
+          <p>Search concurrently across Articles, Amendments, Schedules, and Cases. Powered by Isar local indexing for ultra-low latency results.</p>
+        </div>
+        
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <h3>Landmark Cases Explorer</h3>
+          <p>Learn historical Supreme Court cases (e.g., Kesavananda Bharati). Study court findings, judge bench sizes, and core legal precedents.</p>
+        </div>
+        
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3>UPSC Exam Study Aids</h3>
+          <p>Benefit from exam trap warnings, memory mnemonics, cross-linked article tags, and exam-importance ratings to boost preparation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase / Screenshots Gallery Section -->
+  <section class="section" id="showcase">
+    <div class="container">
+      <div class="section-header">
+        <h2>App Showcase</h2>
+        <p>Take a closer look at the elegant interface and design layout of the Samvidhan app.</p>
+      </div>
+      
+      <div class="showcase-slider">
+        <div class="slider-controls">
+          <!-- Control Tab 1 -->
+          <button class="control-tab active" data-slide="0">
+            <h4><i class="fa-solid fa-table-columns"></i> Complete Guide Dashboard</h4>
+            <p>Access Preamble, Articles, Amendments, Schedules, and Cases in an offline-first dashboard layout with active state monitoring.</p>
+          </button>
+          
+          <!-- Control Tab 2 -->
+          <button class="control-tab" data-slide="1">
+            <h4><i class="fa-solid fa-language"></i> Bilingual Reading</h4>
+            <p>Compare the Hindi and English translations seamlessly. Read the historic text of the Preamble with customizable typography settings.</p>
+          </button>
+          
+          <!-- Control Tab 3 -->
+          <button class="control-tab" data-slide="2">
+            <h4><i class="fa-solid fa-clock-rotate-left"></i> Amendments Timeline</h4>
+            <p>Browse a clean vertical timeline containing all historical modifications, showing the year, political context, and articles changed.</p>
+          </button>
+          
+          <!-- Control Tab 4 -->
+          <button class="control-tab" data-slide="3">
+            <h4><i class="fa-solid fa-magnifying-glass"></i> Instant Search</h4>
+            <p>Perform precise search terms query. Navigate instantly to target articles, parts, or schedules within microseconds.</p>
+          </button>
+          
+          <!-- Control Tab 5 -->
+          <button class="control-tab" data-slide="4">
+            <h4><i class="fa-solid fa-graduation-cap"></i> Preamble & Key Terms</h4>
+            <p>Read terms definitions instantly using an interactive glossary to understand the core constitutional philosophy of India.</p>
+          </button>
+        </div>
+        
+        <div class="slider-display">
+          <div class="screenshot-container">
+            <!-- Slide 0: Dashboard (Guide) -->
+            <div class="screenshot-slide active" id="slide-0">
+              <img src="assets/screenshot_dashboard.jpg" alt="Constitution Guide Dashboard Screen">
+            </div>
+            <!-- Slide 1: Bilingual -->
+            <div class="screenshot-slide" id="slide-1">
+              <img src="assets/screenshot_bilingual.jpg" alt="Bilingual Reading Screen">
+            </div>
+            <!-- Slide 2: Amendments -->
+            <div class="screenshot-slide" id="slide-2">
+              <img src="assets/screenshot_amendments.jpg" alt="Historical Amendments Timeline Screen">
+            </div>
+            <!-- Slide 3: Search (Navigation) -->
+            <div class="screenshot-slide" id="slide-3">
+              <img src="assets/screenshot_navigation.jpg" alt="Fast Navigation Search Screen">
+            </div>
+            <!-- Slide 4: Glossary (Preamble) -->
+            <div class="screenshot-slide" id="slide-4">
+              <img src="assets/screenshot_preamble.jpg" alt="Preamble Interactive glossary Screen">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3>482</h3>
+          <p>Articles</p>
+        </div>
+        <div class="stat-item">
+          <h3>106</h3>
+          <p>Amendments</p>
+        </div>
+        <div class="stat-item">
+          <h3>12</h3>
+          <p>Schedules</p>
+        </div>
+        <div class="stat-item">
+          <h3>6</h3>
+          <p>Landmark Cases</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA Section -->
+  <section class="section cta" id="download">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Master the Constitution?</h2>
+        <p>Get the offline-first bilingual guide on your device and begin exploring legal history in a few taps.</p>
+        <div class="store-buttons">
+          <a href="#" class="store-btn">
+            <svg viewBox="0 0 512 512" fill="currentColor">
+              <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58 33.3-60.7-60.7 60.1-60.1 58.6 33.6c24.8 14.2 24.8 37.4 0 53.9zm-82.6 55.1L108.8 442.1l216.5-161.4 60.1 55.1z" />
+            </svg>
+            <div class="btn-text">
+              <span class="small-text">Get it on</span>
+              <span class="large-text">Google Play</span>
+            </div>
+          </a>
+          <a href="#" class="store-btn">
+            <svg viewBox="0 0 512 512" fill="currentColor">
+              <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-48.6-22.4-76.1-22.4-36.2 0-77.5 21.5-102.5 53.7-32.8 41.6-28.3 102.3-2.8 159 13.5 30.6 34.6 61.2 64.9 61.2 27.5 0 35-17.6 68.3-17.6 33.2 0 40.5 17.6 68.3 17.6 30.6 0 50.1-27.5 64.9-57.5 18-25.9 24.3-51.5 24.5-52.8-1.1-.5-39-14.9-39.2-60.9zM290.3 83.4c20.3-25 34.3-59.5 29.8-94.5-29.2 1.4-66.6 19.6-86.8 44.6-17.7 21.6-33.1 56.2-28.5 90.7 32.5 2.8 67-17.6 85.5-40.8z" />
+            </svg>
+            <div class="btn-text">
+              <span class="small-text">Download on the</span>
+              <span class="large-text">App Store</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <img src="assets/app_logo.png" alt="Samvidhan Logo">
+            <span>संविधान <span class="highlight">Samvidhan</span></span>
+          </a>
+          <p>Empowering civil services aspirants and citizens with an offline-first, bilingual interactive interface to study the Indian Constitution.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support & Contact</h4>
+          <ul>
+            <li><a href="mailto:alok6201@zohomail.in"><i class="fa-regular fa-envelope"></i> support@samvidhanapp.in</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Samvidhan App. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
