@@ -3,74 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Samvidhan App</title>
+  <title>Privacy Policy — Samvidhan App</title>
+  <meta name="description" content="Privacy Policy for the Samvidhan (संविधान) mobile application.">
+  <meta name="theme-color" content="#07090e">
   <link rel="icon" type="image/jpg" href="assets/app_logo.jpg">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 </head>
 <body>
 
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb-1"></span>
+    <span class="orb-2"></span>
+    <span class="orb-3"></span>
+  </div>
+
   <!-- Header -->
-  <header class="header">
+  <header class="header header-scrolled" id="header">
     <div class="container">
-      <a href="index.html" class="logo">
-        <img src="assets/app_logo.jpg" alt="Samvidhan Logo">
+      <a href="index.html" class="logo" aria-label="Samvidhan home">
+        <img src="assets/app_logo.jpg" alt="" width="36" height="36" loading="eager">
         <span>संविधान <span class="highlight">Samvidhan</span></span>
       </a>
-      <nav>
-        <ul class="nav-menu">
-          <li><a href="index.html#home" class="nav-link">Home</a></li>
+      <nav aria-label="Main navigation">
+        <ul class="nav-menu" id="nav-menu" role="list">
+          <li><a href="index.html#home"     class="nav-link">Home</a></li>
           <li><a href="index.html#features" class="nav-link">Features</a></li>
           <li><a href="index.html#showcase" class="nav-link">Showcase</a></li>
-          <li><a href="index.html#download" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Download</a></li>
+          <li><a href="index.html#download" class="btn btn-primary" style="padding:9px 22px;font-size:0.85rem;">Download</a></li>
         </ul>
       </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
-  <!-- Privacy Policy Content -->
-  <main class="container legal-page">
+  <main id="main" class="container legal-page">
     <div class="legal-card">
       <h1>Privacy Policy</h1>
       <div class="legal-meta">Last Updated: May 21, 2026</div>
-      
+
       <div class="legal-content">
-        <p>This Privacy Policy describes how the <strong>Samvidhan (संविधान)</strong> mobile application (the "App") handles user data. We are committed to protecting your privacy and ensure you have a positive experience on our App.</p>
+        <p>This Privacy Policy describes how the <strong>Samvidhan (संविधान)</strong> mobile application (the "App") handles user data. We are committed to protecting your privacy and ensuring a positive experience.</p>
 
         <h2>1. Data Collection and Usage</h2>
-        <p><strong>Offline-First Design:</strong> The App is designed as an offline-first tool. This means that your study data, including bookmarked articles, search queries, notes, and progress metrics, are stored locally on your device and NOT transmitted to our servers.</p>
+        <p><strong>Offline-First Design:</strong> The App is designed as an offline-first tool. Your study data — including bookmarked articles, search queries, notes, and progress metrics — are stored locally on your device and are <em>not</em> transmitted to our servers.</p>
         <p><strong>Personal Information:</strong> We do not collect, store, or transmit any personally identifiable information (PII) such as your name, email address, phone number, physical address, or location data.</p>
 
         <h2>2. Third-Party Analytics and Crash Reporting</h2>
-        <p>To improve the performance, reliability, and usability of the App, we may use trusted third-party services, specifically Google Firebase (Firebase Analytics and Firebase Crashlytics). These services collect:</p>
+        <p>To improve performance, reliability, and usability, we may use trusted third-party services — specifically Google Firebase (Firebase Analytics and Firebase Crashlytics). These services may collect:</p>
         <ul>
-          <li>Device type, operating system version, and unique device identifiers (anonymous).</li>
+          <li>Device type, operating system version, and anonymous device identifiers.</li>
           <li>App launch times, session duration, and feature interaction events (e.g., toggling English/Hindi, searching, opening details).</li>
-          <li>Crash logs and diagnostic reports in the event of an unexpected app crash.</li>
+          <li>Crash logs and diagnostic reports in the event of an unexpected crash.</li>
         </ul>
-        <p>This information is purely technical and cannot be used to identify you personally. We use this data solely to debug issues and optimize future app updates.</p>
+        <p>This information is purely technical and cannot be used to personally identify you. We use it solely to debug issues and optimise future app updates. Please refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for more on how Firebase handles data.</p>
 
         <h2>3. Local Device Permissions</h2>
-        <p>Depending on how you use the App, it may request certain permissions on your device, such as:</p>
+        <p>Depending on how you use the App, it may request certain device permissions:</p>
         <ul>
           <li><strong>Network Access:</strong> Required to fetch over-the-air database updates (syncing new judgments or minor corrections) and for anonymous crash reporting.</li>
-          <li><strong>Storage Access:</strong> Used solely to store the local database file containing the Constitution text and your bookmarks.</li>
+          <li><strong>Storage Access:</strong> Used solely to store the local database file containing Constitution text and your bookmarks.</li>
         </ul>
 
         <h2>4. Data Retention</h2>
-        <p>Because your bookmarks and study preferences are stored locally on your device, they are retained until you delete the App or clear the App's storage cache through your device settings.</p>
+        <p>Because your bookmarks and study preferences are stored locally on your device, they are retained until you delete the App or clear its storage cache through your device settings.</p>
 
         <h2>5. Children's Privacy</h2>
-        <p>Our App is educational and suitable for users of all ages. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with information, please contact us immediately.</p>
+        <p>Our App is educational and suitable for users of all ages. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with information, please contact us immediately.</p>
 
         <h2>6. Changes to this Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top. We recommend checking this page periodically for any changes.</p>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the updated policy on this page and revising the "Last Updated" date. We recommend checking this page periodically.</p>
 
         <h2>7. Contact Us</h2>
-        <p>If you have any questions or feedback regarding this Privacy Policy, please reach out to us at:</p>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please reach out:</p>
         <p>
-          <a href="mailto:support@samvidhanapp.in" style="color: var(--saffron); font-weight: 600;">
-            <i class="fa-regular fa-envelope"></i> support@samvidhanapp.in
+          <a href="mailto:support@samvidhanapp.in">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i> support@samvidhanapp.in
           </a>
         </p>
       </div>
@@ -82,11 +95,11 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="logo">
-            <img src="assets/app_logo.jpg" alt="Samvidhan Logo">
+          <a href="index.html" class="logo" aria-label="Samvidhan home">
+            <img src="assets/app_logo.jpg" alt="" width="36" height="36" loading="lazy">
             <span>संविधान <span class="highlight">Samvidhan</span></span>
           </a>
-          <p>Empowering civil services aspirants and citizens with an offline-first, bilingual interactive interface to study the Indian Constitution.</p>
+          <p>Empowering civil services aspirants and citizens with an offline-first, bilingual interface to study the Indian Constitution.</p>
         </div>
         <div class="footer-links">
           <h4>Explore</h4>
@@ -97,11 +110,11 @@
           </ul>
         </div>
         <div class="footer-links">
-          <h4>Support & Contact</h4>
+          <h4>Support &amp; Legal</h4>
           <ul>
-            <li><a href="mailto:support@samvidhanapp.in"><i class="fa-regular fa-envelope"></i> support@samvidhanapp.in</a></li>
+            <li><a href="mailto:support@samvidhanapp.in"><i class="fa-regular fa-envelope" aria-hidden="true"></i> support@samvidhanapp.in</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms & Conditions</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
           </ul>
         </div>
       </div>
@@ -115,5 +128,6 @@
     </div>
   </footer>
 
+  <script src="js/main.js" defer></script>
 </body>
 </html>
